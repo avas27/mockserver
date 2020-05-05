@@ -1,0 +1,42 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "AC: Service & AC: Heating"
+    },
+    {
+      "id": 2,
+      "name": "Refrigrator: Service & Sinking"
+    }
+  ],
+
+  "companies": [
+    {
+      "id": 1,
+      "name": "Kiko's Company",
+      "image": "../../assets/images/kiko.png",
+      "serviceId": [1],
+      "rating": 5,
+      "availableDate": ["07/05/2020", "09/05/2020", "11/05/2020"],
+      "availableTime": ["9:30AM", "10:30AM"]
+    },
+    {
+      "id": 2,
+      "name": "SES Company",
+      "image": "../../assets/images/ses.png",
+      "serviceId": [2],
+      "rating": 4,
+      "availableDate": ["05/05/2020", "08/05/2020", "10/05/2020"],
+      "availableTime": ["8:30AM", "9:30AM", "10:30AM"]
+    },
+    {
+      "id": 3,
+      "name": "Sample Company",
+      "image": "../../assets/images/sample.png",
+      "serviceId": [1, 2],
+      "rating": 5,
+      "availableDate": ["06/05/2020", "07/05/2020", "11/05/2020"],
+      "availableTime": ["9:30AM", "10:30AM", "11:30AM"]
+    }
+  ]
+}
