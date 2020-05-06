@@ -1,61 +1,262 @@
 {
-  "searchParameters": {
-    "dates": [
-      "09/05/2020",
-      "10/05/2020",
-      "11/05/2020",
-      "12/05/2020",
-      "13/05/2020"
-    ],
-    "time": [
-      "8:00 AM",
-      "8:30 AM",
-      "9:00 AM",
-      "9:30 AM",
-      "10:00 AM",
-      "10:30 AM",
-      "11:00 AM",
-      "11:30 AM"
-    ],
-    "services": [
-      {
-        "id": 1,
-        "name": "AC: Service & AC: Heating"
-      },
-      {
-        "id": 2,
-        "name": "Refrigrator: Service & Sinking"
-      }
-    ]
-  },
+  "serviceId_1": {
+    "exact_match": {
+      "19 March 2020": [
+        {
+          "company_name": "Test Company 1 JTG",
+          "company_image": "",
+          "yelp_rating": 4,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": false
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": false
+            },
+            {
+              "time": "10:30 AM",
+              "available": false
+            },
+            {
+              "time": "11:00 AM",
+              "available": false
+            }
+          ]
+        },
+        {
+          "company_name": "Test Company 2 JTG",
+          "company_image": "",
+          "yelp_rating": 3,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": true
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": false
+            },
+            {
+              "time": "10:30 AM",
+              "available": true
+            },
+            {
+              "time": "11:00 AM",
+              "available": false
+            }
+          ]
+        }
+      ]
+    },
+    "other_date_available": {
+      "20 March 2020": [
+        {
+          "company_name": "Test Company 1 JTG",
+          "company_image": "",
+          "yelp_rating": 4,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": false
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": false
+            },
+            {
+              "time": "10:30 AM",
+              "available": false
+            },
+            {
+              "time": "11:00 AM",
+              "available": false
+            }
+          ]
+        },
+        {
+          "company_name": "Test business 1",
+          "company_image": "",
+          "yelp_rating": 4,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": true
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": true
+            },
+            {
+              "time": "10:30 AM",
+              "available": true
+            },
+            {
+              "time": "11:00 AM",
+              "available": true
+            }
+          ]
+        }
+      ],
 
-  "companies": [
-    {
-      "id": 1,
-      "name": "Kiko's Company",
-      "image": "/images/test1.jpg",
-      "serviceId": [1],
-      "rating": 5,
-      "availableDate": ["07/05/2020", "09/05/2020", "11/05/2020"],
-      "availableTime": ["8:00 AM", "8:30 AM", "9:30 AM", "10:30 AM"]
-    },
-    {
-      "id": 2,
-      "name": "SES Company",
-      "image": "/images/ses.png",
-      "serviceId": [2],
-      "rating": 4,
-      "availableDate": ["05/05/2020", "08/05/2020", "10/05/2020"],
-      "availableTime": ["8:30 AM", "9:00 AM", "9:30 AM", "10:30 AM"]
-    },
-    {
-      "id": 3,
-      "name": "Sample Company",
-      "image": "/images/test2.jpg",
-      "serviceId": [1, 2],
-      "rating": 5,
-      "availableDate": ["06/05/2020", "07/05/2020", "11/05/2020"],
-      "availableTime": ["8:00 AM", "9:00 AM", "10:30 AM", "11:30 AM"]
+      "23 March 2020": [
+        {
+          "company_name": "Test Company 1 JTG",
+          "company_image": "",
+          "yelp_rating": 4,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": false
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": false
+            },
+            {
+              "time": "10:30 AM",
+              "available": false
+            },
+            {
+              "time": "11:00 AM",
+              "available": false
+            }
+          ]
+        },
+        {
+          "company_name": "Test business 1",
+          "company_image": "",
+          "yelp_rating": 4,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": true
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": true
+            },
+            {
+              "time": "10:30 AM",
+              "available": true
+            },
+            {
+              "time": "11:00 AM",
+              "available": true
+            }
+          ]
+        }
+      ],
+      "24 March 2020": [
+        {
+          "company_name": "Test 1",
+          "company_image": "",
+          "yelp_rating": 4,
+          "time_available": [
+            {
+              "time": "8:00 AM",
+              "available": false
+            },
+            {
+              "time": "8:30 AM",
+              "available": false
+            },
+            {
+              "time": "9:00 AM",
+              "available": true
+            },
+            {
+              "time": "9:30 AM",
+              "available": true
+            },
+            {
+              "time": "10:00 AM",
+              "available": false
+            },
+            {
+              "time": "10:30 AM",
+              "available": false
+            },
+            {
+              "time": "11:00 AM",
+              "available": false
+            }
+          ]
+        }
+      ]
     }
-  ]
+  }
 }
