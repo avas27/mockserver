@@ -36,8 +36,23 @@
       "image": "/images/test1.jpg",
       "serviceId": [1],
       "rating": 5,
-      "availableDate": ["07/05/2020", "09/05/2020", "11/05/2020"],
-      "availableTime": ["8:00 AM", "8:30 AM", "9:30 AM", "10:30 AM"]
+      "availableDate": [
+        "07/05/2020",
+        "09/05/2020",
+        "11/05/2020",
+        "12/05/2020",
+        "13/05/2020"
+      ],
+      "availableTime": [
+        "8:00 AM",
+        "8:30 AM",
+        "9:00 AM",
+        "9:30 AM",
+        "10:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "11:30 AM"
+      ]
     },
     {
       "id": 2,
@@ -45,7 +60,7 @@
       "image": "/images/ses.png",
       "serviceId": [2],
       "rating": 4,
-      "availableDate": ["05/05/2020", "08/05/2020", "10/05/2020"],
+      "availableDate": ["09/05/2020", "10/05/2020", "11/05/2020"],
       "availableTime": ["8:30 AM", "9:00 AM", "9:30 AM", "10:30 AM"]
     },
     {
@@ -54,7 +69,7 @@
       "image": "/images/test2.jpg",
       "serviceId": [1, 2],
       "rating": 5,
-      "availableDate": ["06/05/2020", "07/05/2020", "11/05/2020"],
+      "availableDate": ["10/05/2020", "12/05/2020", "13/05/2020"],
       "availableTime": ["8:00 AM", "9:00 AM", "10:30 AM", "11:30 AM"]
     }
   ]
